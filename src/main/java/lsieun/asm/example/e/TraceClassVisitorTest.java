@@ -10,6 +10,7 @@ import static org.objectweb.asm.Opcodes.V1_5;
 import java.io.PrintWriter;
 
 import org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.util.Textifier;
 import org.objectweb.asm.util.TraceClassVisitor;
 
 @SuppressWarnings("Duplicates")
