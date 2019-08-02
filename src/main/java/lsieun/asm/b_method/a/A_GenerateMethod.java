@@ -2,13 +2,9 @@ package lsieun.asm.b_method.a;
 
 import static org.objectweb.asm.Opcodes.*;
 
-import java.io.PrintWriter;
-
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.Label;
 import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.util.CheckClassAdapter;
-import org.objectweb.asm.util.TraceClassVisitor;
 
 import lsieun.utils.io.FileUtils;
 
