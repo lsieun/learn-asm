@@ -4,7 +4,7 @@ import java.lang.management.ManagementFactory;
 
 import javax.management.*;
 
-import lsieun.asm.b_method.c.C;
+import lsieun.asm.core.b_method.c.C;
 
 public class App {
     public static long staticField = 10;
@@ -43,7 +43,7 @@ public class App {
                 e.printStackTrace();
             }
 
-            //game.display("lsieun.asm.b_method.c.C", "timer");
+            //game.display("lsieun.asm.core.b_method.c.C", "timer");
         }
     }
 }
